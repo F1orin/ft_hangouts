@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.IndigoPink">
+        <item name="colorPrimary">@color/indigo</item>
+        <item name="colorPrimaryDark">@color/indigoDark</item>
+        <item name="colorAccent">@color/pink</item>
+    </style>
+
+    <style name="AppTheme.IndigoPink.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.TealDeepOrange">
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryDark">@color/tealDark</item>
+        <item name="colorAccent">@color/deepOrange</item>
+    </style>
+
+    <style name="AppTheme.TealDeepOrange.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.BlueGreyRed">
+        <item name="colorPrimary">@color/blueGrey</item>
+        <item name="colorPrimaryDark">@color/blueGreyDark</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
+
+    <style name="AppTheme.BlueGreyRed.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.DeepPurpleLime">
+        <item name="colorPrimary">@color/deepPurple</item>
+        <item name="colorPrimaryDark">@color/deepPurpleDark</item>
+        <item name="colorAccent">@color/lime</item>
+    </style>
+
+    <style name="AppTheme.DeepPurpleLime.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

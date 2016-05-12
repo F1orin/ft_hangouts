@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="fr.ecole42.fbicher.ft_hangouts.activity.ContactEditActivity"
+    tools:showIn="@layout/activity_contact_edit">
+
+    <FrameLayout
+        android:id="@+id/fl_avatar_holder"
+        android:layout_width="@dimen/contact_avatar_size"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/grey"
+            android:contentDescription="@string/desc_avatar_background" />
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="@dimen/contact_avatar_size"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@string/desc_contact_avatar"
+            tools:src="@drawable/ic_person_white_24dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="@dimen/padding_medium"
+            android:contentDescription="@string/desc_pick_avatar"
+            android:src="@drawable/ic_photo_camera_white_24dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/fl_avatar_holder"
+        android:orientation="vertical">
+
+        <!--name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/padding_small"
+            android:paddingStart="@dimen/padding_small">
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_name"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <!--last name-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingEnd="@dimen/padding_small"
+            android:paddingStart="@dimen/padding_small">
+
+            <EditText
+                android:id="@+id/et_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_last_name"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <!--phone-->
+        <RelativeLayout
+            android:id="@+id/rl_phone_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingEnd="@dimen/padding_small"
+            android:paddingStart="@dimen/padding_small">
+
+            <ImageView
+                android:id="@+id/iv_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/padding_small"
+                android:contentDescription="@string/desc_phone"
+                android:src="@drawable/ic_call_black_24dp" />
+
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding_medium"
+                android:layout_toEndOf="@id/iv_call"
+                android:hint="@string/hint_phone"
+                android:inputType="phone" />
+        </RelativeLayout>
+
+        <!--email-->
+        <RelativeLayout
+            android:id="@+id/ll_email_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:paddingEnd="@dimen/padding_small"
+            android:paddingStart="@dimen/padding_small"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/iv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/padding_small"
+                android:contentDescription="@string/desc_email"
+                android:src="@drawable/ic_email_black_24dp" />
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding_medium"
+                android:layout_toEndOf="@id/iv_email"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress" />
+        </RelativeLayout>
+
+        <!--address-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/padding_small"
+            android:paddingStart="@dimen/padding_small"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/iv_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/padding_small"
+                android:contentDescription="@string/desc_location"
+                android:src="@drawable/ic_location_on_black_24dp" />
+
+            <EditText
+                android:id="@+id/et_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/padding_medium"
+                android:layout_toEndOf="@id/iv_location"
+                android:hint="@string/hint_address"
+                android:inputType="textPostalAddress" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="indigo">#3F51B5</color>
+    <color name="indigoDark">#303F9F</color>
+    <color name="pink">#FF4081</color>
+    <color name="teal">#009688</color>
+    <color name="tealDark">#00796B</color>
+    <color name="deepOrange">#FF5722</color>
+    <color name="grey">#999999</color>
+    <color name="blueGrey">#607D8B</color>
+    <color name="blueGreyDark">#455A64</color>
+    <color name="red">#FF5252</color>
+    <color name="deepPurple">#673AB7</color>
+    <color name="deepPurpleDark">#512DA8</color>
+    <color name="lime">#CDDC39</color>
+</resources>

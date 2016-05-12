@@ -1,0 +1,81 @@
+<resources>
+
+    <string name="app_name">ft_hangouts</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+
+    <string name="title_activity_contacts_list">Contacts List</string>
+    <string name="title_activity_contact_edit">Edit Contact</string>
+    <string name="title_activity_contact_view">View Contact</string>
+    <string name="title_activity_sms">Sms</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_view">View</string>
+    <string name="title_create">Create</string>
+    <string name="title_edit">Edit</string>
+    <string name="title_error">Error</string>
+
+    <string name="desc_contact_avatar">Contact photo</string>
+    <string name="desc_pick_avatar">Pick avatar</string>
+    <string name="desc_avatar_background">Avatar background</string>
+    <string name="desc_phone">Phone icon</string>
+    <string name="desc_email">Email icon</string>
+    <string name="desc_location">Location icon</string>
+    <string name="desc_message">Message icon</string>
+    <string name="desc_send">Send icon</string>
+
+    <string name="hint_name">Name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_phone">Phone number</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_address">Postal address</string>
+    <string name="hint_send_message">Send message</string>
+
+    <string name="txt_ok">OK</string>
+    <string name="txt_cancel">Cancel</string>
+    <string name="txt_change_avatar">Change photo</string>
+    <string name="txt_choose_avatar">Choose photo</string>
+    <string name="txt_remove_avatar">Remove avatar</string>
+    <string name="txt_no_phone">No phone available</string>
+    <string name="txt_avatar_load_error">Error while loading avatar</string>
+    <string name="txt_read_storage_rationale">Storage permission is needed to load avatars</string>
+    <string name="txt_read_sms_rationale">SMS permission is needed to load messages</string>
+    <string name="txt_storage_permission_refused">Application needs storage permission to work correctly</string>
+    <string name="txt_sms_permission_refused">Application needs sms permission to show messages</string>
+    <string name="txt_no_sms_permission">SMS permission not available</string>
+    <string name="txt_contacts_not_available">Contacts not available</string>
+    <string name="txt_last_visit">Last launch</string>
+    <string name="txt_no_messages">No messages available</string>
+    <string name="txt_empty_message">Can not send empty message</string>
+    <string name="txt_contact_created">New contact created</string>
+    <string name="txt_contact_deleted">Contact deleted</string>
+    <string name="txt_contact_updated">Contact updated</string>
+    <string name="txt_no_name">No name</string>
+    <string name="txt_no_lastname">No last name</string>
+    <string name="txt_no_email">No email</string>
+    <string name="txt_no_address">No address</string>
+
+    <string name="color_theme_ip">Indigo with pink accent</string>
+    <string name="color_theme_tdo">Teal with deep orange accent</string>
+    <string name="color_theme_bgr">Blue grey with red accent</string>
+    <string name="color_theme_dpl">Deep purple with lime accent</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Color theme settings -->
+    <string name="pref_title_color_theme">Color theme</string>
+    <string-array name="pref_theme_list_titles">
+        <item>@string/color_theme_ip</item>
+        <item>@string/color_theme_tdo</item>
+        <item>@string/color_theme_bgr</item>
+        <item>@string/color_theme_dpl</item>
+    </string-array>
+    <string-array name="pref_theme_list_values">
+        <item>ip</item>
+        <item>tdo</item>
+        <item>bgr</item>
+        <item>dpl</item>
+    </string-array>
+
+</resources>
