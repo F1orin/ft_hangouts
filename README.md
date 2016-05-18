@@ -21,10 +21,8 @@ Android application for managing contacts and SMS
 * English and French localization
 
 ### Screenshots
-![Runtime Permissions](/screenshots/screenshot_1.png)
+![Runtime Permissions](/screenshots/screenshot_1.png) ![Contact Creation](/screenshots/screenshot_2.png)
 
-![Contact Creation](/screenshots/screenshot_2.png)
+![Contacts List](/screenshots/screenshot_3.png) ![Messages Screen](/screenshots/screenshot_4.png)
 
-![Contacts List](/screenshots/screenshot_3.png)
 
-![Messages Screen](/screenshots/screenshot_4.png)
